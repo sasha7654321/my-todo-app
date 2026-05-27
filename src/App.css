@@ -59,3 +59,51 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+.counter-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #2a2a2a;
+  text-align: center;
+}
+
+.counter-value {
+  font-size: 3rem;
+  margin: 15px 0;
+  color: #00adb5;
+  transition: color 0.3s ease;
+}
+
+.counter-value.red {
+  color: #ff4646;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.counter-buttons button {
+  width: 60px;
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+.counter-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.counter-step label {
+  font-size: 0.9rem;
+  color: #a0a0a0;
+}
+
+.counter-step input {
+  width: 70px;
+  margin-bottom: 0;
+  text-align: center;
+}
